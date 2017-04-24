@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prgrm.in.controller.MainController">
+   <children>
+      <ListView fx:id="CRAWL_LIST" layoutX="18.0" layoutY="73.0" prefHeight="350.0" prefWidth="309.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="366.0" AnchorPane.topAnchor="40.0" />
+      <Label fx:id="URL_TO_CRAWL" alignment="CENTER" layoutX="248.0" layoutY="6.0" prefHeight="16.0" prefWidth="152.0" text="URL" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <TextArea fx:id="SOURCE_CODE" layoutX="397.0" layoutY="40.0" prefHeight="350.0" prefWidth="346.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="40.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="138.0" prefWidth="450.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prgrm.in.controller.StarterController">
+   <children>
+      <TextField fx:id="DOMAIN_NAME" layoutX="10.0" layoutY="50.0" prefHeight="26.0" prefWidth="377.0" promptText="Enter Domain:" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="63.0" AnchorPane.topAnchor="50.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="14.0" text="MULTITHREADED WEB CRAWLER" textAlignment="RIGHT" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="GO_BUTTON" layoutX="279.0" layoutY="88.0" mnemonicParsing="false" onAction="#START_CRAWL" text="GO" />
+      <TextField fx:id="C_LIMIT" layoutX="10.0" layoutY="91.0" promptText="CRAWL LIMIT" />
+   </children>
+</AnchorPane>
